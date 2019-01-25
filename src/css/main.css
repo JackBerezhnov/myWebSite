@@ -4,3 +4,12 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+.carousel > .carousel-inner > .carousel-item > img {
+    max-width: auto;
+    width: auto   9;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
